@@ -23,35 +23,35 @@ const sellerUserSchema = new mongoose.Schema({
         require:true,
         trim:true
     },
-    // phone1:{  
-    //      type:Number,
-    //     require:true,
-    //     trim:true
-    // },
-    // phone2:{  
-    //      type:Number,
-    //     require:true,
-    //     trim:true
-    // },
-    // location:{   
-    //     type:String,
-    //     require:true,
-    //     trim:true
-    // },
-    // pin:{  
-    //     type:Number,
-    //     require:true,
-    //     trim:true
-    // },
-    // shopName:{  
-    //      type:String,
-    //     require:true,
-    //     trim:true},
-    // shopCatagory:{ 
-    //     type:String,
-    //     require:true,
-    //     trim:true
-    // },
+    phone1:{  
+         type:Number,
+        require:true,
+        trim:true
+    },
+    phone2:{  
+         type:Number,
+        require:true,
+        trim:true
+    },
+    location:{   
+        type:String,
+        require:true,
+        trim:true
+    },
+    pin:{  
+        type:Number,
+        require:true,
+        trim:true
+    },
+    shopName:{  
+         type:String,
+        require:true,
+        trim:true},
+    shopCatagory:{ 
+        type:String,
+        require:true,
+        trim:true
+    },
     tokens:[{
         token : {
             type:String,

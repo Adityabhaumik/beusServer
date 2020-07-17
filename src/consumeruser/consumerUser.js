@@ -6,7 +6,7 @@ const { Timestamp } = require("mongodb");
 const jwt = require('jsonwebtoken')
 
 const consumerUserSchema = new mongoose.Schema({
-     name:{
+    name:{
       
         type:String,
         require:true,
@@ -23,22 +23,22 @@ const consumerUserSchema = new mongoose.Schema({
         require:true,
         trim:true
     },
-    // phone1:{  
-    //      type:Number,
-    //     require:true,
-    //     trim:true
-    // },
+    phone1:{  
+         type:Number,
+        require:true,
+        trim:true
+    },
   
-    // location:{   
-    //     type:String,
-    //     require:true,
-    //     trim:true
-    // },
-    // pin:{  
-    //     type:Number,
-    //     require:true,
-    //     trim:true
-    // },
+    location:{   
+        type:String,
+        require:true,
+        trim:true
+    },
+    pin:{  
+        type:Number,
+        require:true,
+        trim:true
+    },
   
     tokens:[{
         token : {
